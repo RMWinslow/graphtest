@@ -1,5 +1,6 @@
 
-<script src="https://kineticgraphs.org/js/kg.0.2.6.js"></script>
+If I've done everything correctly, the following div should render as a graph.
+
 
 <div class="kg-container">
   
