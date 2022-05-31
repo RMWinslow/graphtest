@@ -28,6 +28,19 @@ layout:
 </div>
 
 
+<div class="kg-container">
+params:
+- {name: a, value: 3, min: 0, max: 10}
+layout:
+  HTMLPlusSidebarLayout:
+    html: "`<p>The value of $a$ is ${params.a}.</p>`"
+    sidebar:
+      controls:
+      - title: Parameters
+        sliders:
+        - {param: a, label: a}
+</div>
+
 Lorem ipsum dolor est.
 Lorem ipsum dolor est.
 Lorem ipsum dolor est.
