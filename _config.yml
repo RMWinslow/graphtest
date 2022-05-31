@@ -1,7 +1,13 @@
-title: "JTD test"
-remote_theme: pmarsceill/just-the-docs
+title: "Posts"
+remote_theme: RMWinslow/just-the-docs-tweaked
 search_enabled: true
 
-color_scheme: solarized
-
 gh_edit_link: false  # show or hide edit this page link
+
+compress_html:
+  ignore:
+    envs: all
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
